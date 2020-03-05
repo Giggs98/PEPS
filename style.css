@@ -1,0 +1,71 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.828);
+    color: white;
+}
+#PEPS{
+    background-color: rgba(65, 105, 225, 0.829);
+}
+#PEPS2{
+    background-color: rgba(100, 148, 237, 0.801);
+}
+#PEPS3{
+    background-color: rgba(70, 131, 180, 0.781);
+}
+#Entrada{
+    background-color: rgba(0, 100, 0, 0.801);
+}
+#Entrada2{
+    background-color: rgba(34, 139, 34, 0.849);
+}
+#Entrada3{
+    background-color: rgba(31, 195, 16, 0.829);
+}
+#Salida{
+    background-color: rgba(139, 0, 0, 0.787);
+}
+#Salida2{
+    background-color: rgba(178, 34, 34, 0.739);
+}
+#Salida3{
+    background-color: rgba(245, 46, 11, 0.726);
+}
+#Saldos{
+    background-color: rgba(65, 105, 225, 0.678);
+}
+#Saldos2{
+    background-color: rgba(100, 148, 237, 0.746);
+}
+#Saldos3{
+    background-color: rgba(70, 131, 180, 0.815);
+}
+input{
+    width: 90%;
+}
+label{
+    font-size: 10px;
+}
+table, th, td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+}
+input[type="date"]{
+    width: 80%;
+}
+.boton{
+    padding: 12px 25px;
+    font-size: 20px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid rgba(70, 131, 180, 0.781);
+    background-color: rgba(255, 255, 255, 0.719);
+    transition-duration: .3s;
+}
+.boton:hover{
+    background-color: rgba(70, 131, 180, 0.781); 
+    color: white; 
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PEPS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>Metodo PEPS</h1></center>
+        <form id="myForm">
+            <table>
+                <tr>
+                    <th colspan="2" id="PEPS">PEPS</th>
+                    <th colspan="3" id="Entrada">Entrada</th>
+                    <th colspan="3" id="Salida">Salida</th>
+                    <th colspan="3" id="Saldos">Saldos</th>
+                </tr>
+                <tr>
+                    <th id="PEPS2">Fecha</th>
+                    <th id="PEPS2">Concepto</th>
+                    <th id="Entrada2">Cantidad</th>
+                    <th id="Entrada2">Valor Unidad</th>
+                    <th id="Entrada2">Valor Total</th>
+                    <th id="Salida2">Cantidad</th>
+                    <th id="Salida2">Valor Unidad</th>
+                    <th id="Salida2">Valor Total</th>
+                    <th id="Saldos2">Cantidad</th>
+                    <th id="Saldos2">Valor Unidad</th>
+                    <th id="Saldos2">Valor Total</th>
+                </tr>
+                <tr>
+                    <td id="PEPS3"><input type="date"></td>
+                    <th id="PEPS3"> <input type="radio" onclick="Calificar1();"> <label>Compra</label>
+                        <input type="radio" onclick="Calificar2();"> <label>Venta</label>
+                    </th>
+                    <td id="Entrada3"> <input type="text" id="ECantidad1" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" id="EVUnidad1" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" disabled id="ETUnidad1"> </td>
+                    <td id="Salida3"> <input type="text" id="SCantidad1" value="0"> </td>
+                    <td id="Salida3"> <input type="text" id="SVUnidad1" value="0"> </td>
+                    <td id="Salida3"> <input type="text" disabled id="STUnidad1"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaCantidad1"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaUnidad1"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaTotal1"> </td>   
+                </tr>
+                <tr>
+                    <td id="PEPS3"><input type="date"></td>
+                    <td id="PEPS3"> <input type="radio" onclick="Calificar3();"> <label>Compra</label><br>
+                        <input type="radio" onclick="Calificar4();"> <label>Venta</label>
+                    </td>
+                    <td id="Entrada3"> <input type="text" id="ECantidad2" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" id="EVUnidad2" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" disabled id="ETUnidad2"> </td>
+                    <td id="Salida3"> <input type="text" id="SCantidad2" value="0"> </td>
+                    <td id="Salida3"> <input type="text" id="SVUnidad2" value="0"> </td>
+                    <td id="Salida3"> <input type="text" disabled id="STUnidad2"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaCantidad2"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaUnidad2"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaTotal2"> </td>   
+                </tr>
+                <tr>
+                    <td id="PEPS3"><input type="date"></td>
+                    <th id="PEPS3"> <input type="radio" onclick="Calificar5();"> <label>Compra</label><br>
+                        <input type="radio" onclick="Calificar6();"> <label>Venta</label>
+                    </th>
+                    <td id="Entrada3"> <input type="text" id="ECantidad3" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" id="EVUnidad3" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" disabled id="ETUnidad3"> </td>
+                    <td id="Salida3"> <input type="text" id="SCantidad3" value="0"> </td>
+                    <td id="Salida3"> <input type="text" id="SVUnidad3" value="0"> </td>
+                    <td id="Salida3"> <input type="text" disabled id="STUnidad3"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaCantidad3"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaUnidad3"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaTotal3"> </td>   
+                </tr>
+                <tr>
+                    <td id="PEPS3"><input type="date"></td>
+                    <th id="PEPS3"> <input type="radio" onclick="Calificar7();"> <label>Compra</label><br>
+                        <input type="radio" onclick="Calificar8();"> <label>Venta</label>
+                    </th>
+                    <td id="Entrada3"> <input type="text" id="ECantidad4" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" id="EVUnidad4" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" disabled id="ETUnidad4"> </td>
+                    <td id="Salida3"> <input type="text" id="SCantidad4" value="0"> </td>
+                    <td id="Salida3"> <input type="text" id="SVUnidad4" value="0"> </td>
+                    <td id="Salida3"> <input type="text" disabled id="STUnidad4"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaCantidad4"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaUnidad4"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaTotal4"> </td>   
+                </tr>
+                <tr>
+                    <td id="PEPS3"><input type="date"></td>
+                    <th id="PEPS3"> <input type="radio" onclick="Calificar9();"> <label>Compra</label><br>
+                        <input type="radio" onclick="Calificar10();"> <label>Venta</label>
+                    </th>
+                    <td id="Entrada3"> <input type="text" id="ECantidad5" value="0"> </td>
+                    <td id="Entrada3"> <input type="text" id="EVUnidad5" value="0"></td>
+                    <td id="Entrada3"> <input type="text" disabled id="ETUnidad5"> </td>
+                    <td id="Salida3"> <input type="text" id="SCantidad5" value="0"> </td>
+                    <td id="Salida3"> <input type="text" id="SVUnidad5" value="0"> </td>
+                    <td id="Salida3"> <input type="text" disabled id="STUnidad5"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaCantidad5"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaUnidad5"> </td>
+                    <td id="Saldos3"> <input type="text" disabled id="SaTotal5"> </td>   
+                </tr>
+            </table>
+            <br><br><br><br>
+        </form>
+        <center>
+            <button class="boton" id="limp" onclick="location.href='index.html'" >Limpiar</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="boton" onclick="Calcular();">Calcular</button>
+        </center>
+        <script src="oper.js"></script>
+    </body>
+</html>
