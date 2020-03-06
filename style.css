@@ -48,7 +48,8 @@ label{
     font-size: 10px;
 }
 table, th, td,tr {
-    border: 1px solid black;
+    border-radius:  2%;;
+    border: 1px ;
     border-collapse: collapse;
     color: white;
     text-align: center;
